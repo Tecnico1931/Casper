@@ -21,4 +21,4 @@ if [ -f "$HIGHFIVE" ] ; then
 	RESULT=$(/usr/bin/defaults read "$HIGHFIVE" CFBundleVersion)
 fi
 
-echo "<string>$RESULT</string>"
+echo "<result>$RESULT</result>"
